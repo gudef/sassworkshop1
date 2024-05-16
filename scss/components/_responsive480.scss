@@ -1,0 +1,34 @@
+@media screen and (max-width:480px){
+    
+    .header-info{
+        h1{
+            font-size: 4rem !important;
+        }
+
+        p{
+            padding: 0 1rem;
+        }
+    }
+
+    .services{
+        height: auto;
+        padding: 2rem 0;
+
+        .services-left{
+            padding: 0 !important;
+
+        }
+
+        .services-right{
+            .services-grid{
+                grid-template-columns: 1fr !important;
+                grid-template-rows: auto !important;
+            }
+        }
+    }
+
+    .portfolio-grid{
+        grid-template-columns: 1fr !important;
+    }
+
+}

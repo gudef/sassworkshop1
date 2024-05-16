@@ -1,0 +1,82 @@
+header{
+    background: url(../img/banner.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+
+       // border: 1px solid red;
+
+        align-items: center;
+        color: $white;
+
+        .logo{
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        ul.menu{
+            display: flex;
+
+            li{
+                margin: 0 1.5rem;
+
+                a{
+                    text-decoration: none;
+                    color: $white;
+                }
+
+            }
+        }
+    }
+
+    .header-wrapper{
+        display: flex;
+        //border: 1px solid red;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+
+        .header-info{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 700px;
+            height: 500px;
+           // border: 1px solid red;
+
+            h1{
+                font-weight: bold;
+                font-size: 7rem;
+                color: $white;
+            }
+
+            p {
+                color: $white;
+                line-height: 1.5;
+            }
+
+            ul.social-icons{
+                margin-top: 2rem;
+                display: flex;
+                //border: 1px solid red;
+                width: 200px;
+                justify-content: space-between;
+
+                a{
+                    color: $white;
+                    transition: .3s;
+                    &:hover{
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+}
